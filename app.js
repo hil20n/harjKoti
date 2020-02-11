@@ -17,7 +17,8 @@ var x = 2;
 var y = 2;
 var laskebtn = document.getElementById("laskinbtn");
 laskebtn.onclick = function(){
-    console.log(x+y);
+    //console.log(x+y);
+    laskebtn.innerHTML = (x + y);
     //tulos.innerHTML = "tässä vaihdettu otsikko"; // vaatii otsikkoon id="tulos"
     //laskebtn.innerHTML = "tässä vaihdettu nimi buttonille";
 }
