@@ -1,0 +1,15 @@
+#siirrabuttonit{  /*yksittäin buttonit keskelle sivua, vierekkäin*/
+    text-align: center;
+}
+button{    /*kaikki buttonit menevät keskelle, ovat allekkain */
+    margin:auto;
+    display: block;
+}
+
+.page{
+    display: none; /* div sisällä olevat luokat page piilotetaan*/
+}
+
+.active{
+    display: block; /* active (saa olla mikä sana hyvänsä) luokassa oleva aktivoidaan*/
+}
